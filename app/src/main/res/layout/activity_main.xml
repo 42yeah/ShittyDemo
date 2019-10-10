@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="299dp"
+        android:layout_height="483dp"
+        android:layout_x="27dp"
+        android:layout_y="35dp" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView2"
+        android:layout_width="299dp"
+        android:layout_height="483dp"
+        android:layout_x="80dp"
+        android:layout_y="145dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="18dp"
+        android:onClick="first"
+        android:text="就第一个" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="115dp"
+        android:layout_y="18dp"
+        android:onClick="second"
+        android:text="就第二个" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="213dp"
+        android:layout_y="18dp"
+        android:onClick="together"
+        android:text="一起来" />
+
+</AbsoluteLayout>
